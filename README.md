@@ -260,5 +260,7 @@ Users can access only routes allowed by their role.
 ---
 
 # Author
+Aniruddhya Deasi  
+Backend Developer specializing in Node.js, Express.js, MongoDB
 
 Built using Node.js, Express, MongoDB.
