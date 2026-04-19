@@ -83,10 +83,12 @@ Event: Food Fest Kolkata
 
 ```txt
 Event_Booking/
+|──config/
+|  ├──db.js
 │── controllers/
-│   ├── userController.js
-│   ├── eventController.js
-│   └── bookingController.js
+│   ├── UserController.js
+│   ├── EventController.js
+│   └── BookingController.js
 │
 │── middleware/
 │   └── authMiddleware.js
@@ -97,9 +99,9 @@ Event_Booking/
 │   └── Booking.js
 │
 │── routes/
-│   ├── userRoutes.js
-│   ├── eventRoutes.js
-│   └── bookingRoutes.js
+│   ├── UserRoutes.js
+│   ├── EventRoutes.js
+│   └── BookingRoutes.js
 │
 │── utils/
 │   └── asyncJobs.js
@@ -117,7 +119,7 @@ Event_Booking/
 ## 1. Clone Project
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Aniruddhyadeasi/event-booking-system
 cd Event_Booking
 ```
 
